@@ -4,7 +4,7 @@ from pymongo.read_concern import ReadConcern
 from pymongo.write_concern import WriteConcern
 from pymongo.read_preferences import ReadPreference
 
-from src.dbs.mongodb_session import MongoDBSession
+from src.mir_persistence_layer_utils.dbs.mongodb_session import MongoDBSession
 
 
 def with_transaction(mdb_session: MongoDBSession, fn: Callable,
