@@ -1,13 +1,13 @@
 [build-system]
-requires = ["hatchling", "boto3"]
+requires = ["hatchling", "pymongo", "motor"]
 build-backend = "hatchling.build"
 [project]
-name = "mir-aws-utils"
-version = "0.0.3"
+name = "mir-persistence-layer-utils"
+version = "0.0.1"
 authors = [
   { name="Alexandros Giavaras", email="a.giavaras@gmail.com" },
 ]
-description = "Various utilities for working with AWS in Python 3. for the mir project"
+description = "Persistence layer utilities for mir project"
 readme = "README.md"
 requires-python = ">=3.9"
 classifiers = [
@@ -16,5 +16,5 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 [project.urls]
-"Homepage" = "https://github.com/pockerman/awsutils"
-"Bug Tracker" = "https://github.com/pockerman/awsutils/issues"
+"Homepage" = "https://github.com/pockerman/mir_persistence_layer_utils"
+"Bug Tracker" = "https://github.com/pockerman/mir_persistence_layer_utils/issues"
